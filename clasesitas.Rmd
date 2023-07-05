@@ -1,0 +1,24 @@
+```{r}
+library(ggplot2)
+ggplot(InsectSprays, aes(x = spray, y = count, fill = spray)) +
+  geom_boxplot() +
+  geom_jitter(size = 0.5) + 
+  theme_classic() +
+  labs(title = "Número de insectos por tipo de insecticida", 
+       x = "Inseticida", 
+       y = "Número de insectos")
+```
+
+
+
+##analisis de relacion 
+
+identificar si la(s) variables 
+
+$ y=\beta_0+\beta1\cdot x + \epsilon$$
+
+##ejemplo de alta relacion 
+
+$H_0 : $ petal witdh no afecta a petal 
+  
+  
